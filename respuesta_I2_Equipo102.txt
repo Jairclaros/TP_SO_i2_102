@@ -3,3 +3,4 @@ Claros Diaz Jair
 Cespedes Leandro 
 Morro Luciano
 
+e- Los comandos que usamos para resolver este tp por orden de ejecucion son: git remote add upstream, git ferch upstream, git checkout upstream, git merch upstream, git push
