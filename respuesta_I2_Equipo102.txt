@@ -5,3 +5,5 @@ Morro Luciano
 
 a-Agrega el repositorio original como remoto, utiliza git fetch, git merge repositorio/main y finalmente git push.
 b-No directamente, ALPHA debería agregar el fork de GAMMA como remoto y seguir los mismos pasos que en el punto a.
+c-Se puede, pero el GAMMA tiene actualizar su fork desde el fork de ALFA y no del repositorio original
+d-No, no se perdieron los datos al actualizar el fork 
