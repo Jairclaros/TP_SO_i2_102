@@ -7,4 +7,69 @@ a-Agrega el repositorio original como remoto, utiliza git fetch, git merge repos
 b-No directamente, ALPHA debería agregar el fork de GAMMA como remoto y seguir los mismos pasos que en el punto a.
 c-Se puede, pero el GAMMA tiene actualizar su fork desde el fork de ALFA y no del repositorio original
 d-No, no se perdieron los datos al actualizar el fork 
-e- Los comandos que usamos para resolver este tp por orden de ejecucion son: git remote add upstream, git ferch upstream, git checkout upstream, git merch upstream, git push
+e- Lista de comandos usados por orden de ejecución:
+
+Claros Diaz Jair(BETA):
+
+1)
+git clone https://github.com/Jairclaros/TP_SO_i2_102.git
+git add .
+git commit -m "Agregue archivo fork"
+git push
+
+4)
+git add .
+git commit -m "Agregue el archivo NuevoDato.txt"
+git push 
+
+git add .
+git commit -m "Agregue el archivo respuesta"
+git push 
+
+PUNTO c- y d-
+
+git add .
+git commit -m "Agregue las respuestas c y d"
+git push 
+
+Morro Luciano(GAMMA):
+
+2)
+git clone https://github.com/Luciano9632025/TP_SO_i2_102.git
+git add .
+git commit -m "Agregue Nombre, ip, Hora"
+git push 
+
+
+5)
+git remote add upstream https://github.com/Jairclaros/TP_SO_i2_102.git
+git fetch upstream
+git merge upstream/main
+git push 
+
+PUNTO a- y b
+
+git add .
+git commit -m "Agregue respuesta a y b"
+git push 
+
+Leandro Cespedes(ALFA):
+
+2)
+git clone https://github.com/Leacespedes25/TP_SO_i2_102.git
+git add .
+git commit -m "modifique el archivo fork.txt"
+git push 
+
+5)
+git remote add upstream https://github.com/Jairclaros/TP_SO_i2_102.git
+git fetch upstream
+git merge upstream/main
+git push 
+
+PUNTO e- 
+
+git add .
+git commit -m "agregue respuesta e-"
+git push 
+
